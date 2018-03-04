@@ -54,19 +54,18 @@ ALICE_DESCRIBE_STORE( abc::Gia_Man_t*, aig )
 ALICE_PRINT_STORE_STATISTICS( abc::Gia_Man_t*, os, aig )
 {
   abc::Gps_Par_t Pars;
-  memset( &Pars, 0, sizeof(abc::Gps_Par_t) );
+  memset( &Pars, 0, sizeof( abc::Gps_Par_t ) );
   abc::Gia_ManPrintStats( aig, &Pars );
 }
 
 ALICE_LOG_STORE_STATISTICS( abc::Gia_Man_t*, aig )
 {
   return nlohmann::json{
-    {"name", abc::Gia_ManName( aig )},
-    {"inputs", abc::Gia_ManPiNum( aig )},
-    {"outputs", abc::Gia_ManPoNum( aig )},
-    {"nodes", abc::Gia_ManAndNum( aig )},
-    {"levels", abc::Gia_ManLevelNum( aig )}
-  };
+      {"name", abc::Gia_ManName( aig )},
+      {"inputs", abc::Gia_ManPiNum( aig )},
+      {"outputs", abc::Gia_ManPoNum( aig )},
+      {"nodes", abc::Gia_ManAndNum( aig )},
+      {"levels", abc::Gia_ManLevelNum( aig )}};
 }
 
 ALICE_ADD_FILE_TYPE( aiger, "Aiger" )
@@ -81,7 +80,7 @@ ALICE_WRITE_FILE( abc::Gia_Man_t*, aiger, aig, filename, cmd )
   abc::Gia_AigerWrite( aig, (char*)filename.c_str(), 1, 0 );
 }
 
-ALICE_COMMAND(syn3, "Optimization", "Performs AIG optimization")
+ALICE_COMMAND( syn3, "Optimization", "Performs AIG optimization" )
 {
   auto& aigs = store<abc::Gia_Man_t*>();
   auto aig_new = abc::Gia_ManAigSyn3( aigs.current(), 0, 0 );
@@ -89,7 +88,7 @@ ALICE_COMMAND(syn3, "Optimization", "Performs AIG optimization")
   aigs.current() = aig_new;
 }
 
-ALICE_COMMAND(syn4, "Optimization", "Performs AIG optimization")
+ALICE_COMMAND( syn4, "Optimization", "Performs AIG optimization" )
 {
   auto& aigs = store<abc::Gia_Man_t*>();
   auto aig_new = abc::Gia_ManAigSyn4( aigs.current(), 0, 0 );
@@ -132,4 +131,4 @@ ALICE_CONVERT( abc::Wlc_Ntk_t*, wlc, abc::Gia_Man_t* )
 
 } // namespace alice
 
-ALICE_MAIN( abc )
+ALICE_MAIN( abc2 )
