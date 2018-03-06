@@ -53,14 +53,13 @@ ALICE_DESCRIBE_STORE( abc::Gia_Man_t*, aig )
 
 ALICE_PRINT_STORE_STATISTICS( abc::Gia_Man_t*, os, aig )
 {
-  abc::Gps_Par_t Pars;
-  memset( &Pars, 0, sizeof( abc::Gps_Par_t ) );
+  abc::Gps_Par_t Pars{};
   abc::Gia_ManPrintStats( aig, &Pars );
 }
 
 ALICE_LOG_STORE_STATISTICS( abc::Gia_Man_t*, aig )
 {
-  return nlohmann::json{
+  return {
       {"name", abc::Gia_ManName( aig )},
       {"inputs", abc::Gia_ManPiNum( aig )},
       {"outputs", abc::Gia_ManPoNum( aig )},
@@ -82,10 +81,10 @@ ALICE_WRITE_FILE( abc::Gia_Man_t*, aiger, aig, filename, cmd )
 
 ALICE_COMMAND( syn3, "Optimization", "Performs AIG optimization" )
 {
-  auto& aigs = store<abc::Gia_Man_t*>();
-  auto aig_new = abc::Gia_ManAigSyn3( aigs.current(), 0, 0 );
-  abc::Gia_ManStop( aigs.current() );
-  aigs.current() = aig_new;
+  auto& aig = store<abc::Gia_Man_t*>().current();
+  auto aig_new = abc::Gia_ManAigSyn3( aig, 0, 0 );
+  abc::Gia_ManStop( aig );
+  aig = aig_new;
 }
 
 ALICE_COMMAND( syn4, "Optimization", "Performs AIG optimization" )
@@ -124,9 +123,9 @@ ALICE_WRITE_FILE( abc::Wlc_Ntk_t*, verilog, ntk, filename, cmd )
   abc::Wlc_WriteVer( ntk, (char*)filename.c_str(), 0, 0 );
 }
 
-ALICE_CONVERT( abc::Wlc_Ntk_t*, wlc, abc::Gia_Man_t* )
+ALICE_CONVERT( abc::Wlc_Ntk_t*, ntk, abc::Gia_Man_t* )
 {
-  return abc::Wlc_NtkBitBlast( wlc, nullptr );
+  return abc::Wlc_NtkBitBlast( ntk, nullptr );
 }
 
 } // namespace alice
