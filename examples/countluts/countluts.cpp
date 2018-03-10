@@ -55,6 +55,7 @@ public:
     if ( num_vars > 6u )
     {
       std::cout << "[w] ignore gate with " << num_vars << " inputs\n";
+      return;
     }
 
     if ( !( type.size() > 2u && type[0] == '0' && type[1] == 'x' ) )
