@@ -13,22 +13,26 @@ used.
 
 **alice:** C++ command shell library
  <br>
-[GitHub](https://github.com/msoeken/alice) | [Version 0.1 (Jan 11, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/)
+[GitHub](https://github.com/msoeken/alice) | [Version 0.1 (Jan 11, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
+maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **kitty:** C++ truth table library <br>
-[GitHub](https://github.com/msoeken/kitty) | [Version 0.3 (Feb 25, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/)
+[GitHub](https://github.com/msoeken/kitty) | [Version 0.3 (Feb 25, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/) <br>
+maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **lorina:** C++ parsing library <br>
-[GitHub](https://github.com/hriener/lorina) | [Documentation](http://lorina.readthedocs.io/en/latest/)
+[GitHub](https://github.com/hriener/lorina) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
+maintained by Heinz Riener
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** Exact synthesis library with topology information <br>
-[GitHub](https://github.com/whaaswijk/percy)
+[GitHub](https://github.com/whaaswijk/percy) <br>
+maintained by Winston Haaswijk
 
 ## Examples
 
