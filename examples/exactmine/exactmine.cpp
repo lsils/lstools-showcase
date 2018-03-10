@@ -43,14 +43,10 @@ public:
   optimum_network() = default;
 
   optimum_network( const kitty::dynamic_truth_table& function )
-      : function( function )
-  {
-  }
+      : function( function ) {}
 
   optimum_network( kitty::dynamic_truth_table&& function )
-      : function( std::move( function ) )
-  {
-  }
+      : function( std::move( function ) ) {}
 
   bool exists() const
   {
@@ -146,6 +142,7 @@ public:
   load_bench_command( const environment::ptr& env ) : command( env, "load entries from LUT functions in BENCH file" )
   {
     add_option( "filename,--filename", filename, "BENCH filename" )->check( ExistingFileWordExp );
+    add_option( "--threshold,-t", threshold, "skip functions with more than this number of inputs", 4u );
   }
 
   class lut_parser : public lorina::bench_reader
@@ -159,11 +156,8 @@ public:
 
       const auto num_vars = inputs.size();
 
-      if ( num_vars > 6u )
-      {
-        std::cout << "[w] ignore gate with " << num_vars << " inputs\n";
+      if ( num_vars > cmd.threshold )
         return;
-      }
 
       if ( !( type.size() > 2u && type[0] == '0' && type[1] == 'x' ) )
       {
@@ -189,6 +183,7 @@ protected:
 
 private:
   std::string filename;
+  unsigned threshold = 6u;
 };
 
 ALICE_ADD_COMMAND( load_bench, "Loading" );
