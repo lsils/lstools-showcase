@@ -36,6 +36,7 @@
 #include <alice/alice.hpp>
 #include <kitty/kitty.hpp>
 #include <lorina/lorina.hpp>
+#include <percy/percy.hpp>
 
 class optimum_network
 {
@@ -187,6 +188,55 @@ private:
 };
 
 ALICE_ADD_COMMAND( load_bench, "Loading" );
+
+class find_network_command : public command
+{
+public:
+  find_network_command( const environment::ptr& env ) : command( env, "Finds optimum network" )
+  {
+  }
+
+protected:
+  void execute()
+  {
+    const auto& function = store<optimum_network>().current().function;
+
+    if ( function.num_vars() == 2u )
+    {
+      synthesize<2>( function );
+    }
+    else if ( function.num_vars() == 3u )
+    {
+      synthesize<3>( function );
+    }
+    else if ( function.num_vars() == 4u )
+    {
+      synthesize<4>( function );
+    }
+  }
+
+  template<int NumVars>
+  void synthesize( const kitty::dynamic_truth_table& function )
+  {
+    percy::synth_spec<kitty::static_truth_table<NumVars>> spec;
+    spec.nr_in = NumVars;
+    spec.nr_out = 1;
+    spec.verbosity = 0;
+
+    kitty::static_truth_table<NumVars> func;
+    std::copy( function.begin(), function.end(), func.begin() );
+    spec.functions[0] = &func;
+
+    auto synth = percy::new_synth<percy::symmetric_synthesizer<kitty::static_truth_table<NumVars>, abc::sat_solver*, 2>>();
+    percy::chain<kitty::static_truth_table<NumVars>> c;
+
+    auto result = synth->synthesize( spec, c );
+
+    std::cout << ( result == percy::success ) << std::endl;
+  }
+};
+
+ALICE_ADD_COMMAND( find_network, "Exact synthesis" )
 
 } // namespace alice
 
