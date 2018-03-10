@@ -52,6 +52,18 @@ public:
   {
   }
 
+  bool exists() const
+  {
+    static std::vector<std::unordered_set<kitty::dynamic_truth_table, kitty::hash<kitty::dynamic_truth_table>>> hash;
+
+    if ( function.num_vars() >= hash.size() )
+    {
+      hash.resize( function.num_vars() + 1 );
+    }
+
+    return !hash[function.num_vars()].insert( function ).second;
+  }
+
 public: /* field access */
   kitty::dynamic_truth_table function{0};
   std::string network;
@@ -81,8 +93,13 @@ void add_optimum_network_entry( command& cmd, kitty::dynamic_truth_table& functi
     function = std::get<0>( kitty::exact_npn_canonization( function ) );
   }
 
-  cmd.store<optimum_network>().extend();
-  cmd.store<optimum_network>().current() = function;
+  optimum_network entry( function );
+
+  if ( !entry.exists() )
+  {
+    cmd.store<optimum_network>().extend();
+    cmd.store<optimum_network>().current() = entry;
+  }
 }
 
 class load_command : public command
