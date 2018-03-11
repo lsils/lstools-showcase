@@ -153,7 +153,7 @@ private:
 
 ALICE_ADD_COMMAND( load, "Loading" );
 
-class load_bench_command : public alice::command
+class load_bench_command : public command
 {
 public:
   load_bench_command( const environment::ptr& env ) : command( env, "Load entries from LUT functions in BENCH file" )
