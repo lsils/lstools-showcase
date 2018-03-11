@@ -32,6 +32,8 @@
 
 #include <cmath>
 #include <string>
+#include <unordered_set>
+#include <vector>
 
 #include <alice/alice.hpp>
 #include <kitty/kitty.hpp>
