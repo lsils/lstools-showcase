@@ -235,7 +235,11 @@ protected:
     auto synth = percy::new_synth<kitty::dynamic_truth_table, abc::sat_solver*>( type );
     percy::chain<kitty::dynamic_truth_table> c;
 
-    auto result = synth->synthesize( spec, c );
+    if ( synth->synthesize( spec, c ) != percy::success )
+    {
+      env->out() << "[e] could not find optimum network (try with other synthesis types)\n";
+      return;
+    }
 
     if ( is_set( "verify" ) )
     {
