@@ -249,7 +249,7 @@ protected:
       }
       else
       {
-        env->out() << "[e] synthesized chain does not match specification\n";
+        env->err() << "[e] synthesized chain does not match specification\n";
         return;
       }
     }
