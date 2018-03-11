@@ -116,7 +116,7 @@ void add_optimum_network_entry( command& cmd, kitty::dynamic_truth_table& functi
 class load_command : public command
 {
 public:
-  load_command( const environment::ptr& env ) : command( env, "load new entry" )
+  load_command( const environment::ptr& env ) : command( env, "Load new entry" )
   {
     add_option( "truth_table,--tt", truth_table, "truth table in hex format" );
     add_flag( "--binary,-b", "read truth table as binary string" );
@@ -154,7 +154,7 @@ ALICE_ADD_COMMAND( load, "Loading" );
 class load_bench_command : public alice::command
 {
 public:
-  load_bench_command( const environment::ptr& env ) : command( env, "load entries from LUT functions in BENCH file" )
+  load_bench_command( const environment::ptr& env ) : command( env, "Load entries from LUT functions in BENCH file" )
   {
     add_option( "filename,--filename", filename, "BENCH filename" )->check( ExistingFileWordExp );
     add_option( "--threshold,-t", threshold, "skip functions with more than this number of inputs", 4u );
@@ -206,7 +206,7 @@ ALICE_ADD_COMMAND( load_bench, "Loading" );
 class find_network_command : public command
 {
 public:
-  find_network_command( const environment::ptr& env ) : command( env, "Finds optimum network" )
+  find_network_command( const environment::ptr& env ) : command( env, "Find optimum network" )
   {
     add_option( "--synth_type,-t", type, "synthesis type (0: simple, 1: nontriv, 2: alonce, 3: noreapply, 4: colex, 5: colex_func, 6: symmetric, 7: fence)", true );
     add_flag( "--verify", "verifies whether found network matches specification" );
