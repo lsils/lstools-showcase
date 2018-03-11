@@ -176,7 +176,7 @@ public:
 
       if ( !( type.size() > 2u && type[0] == '0' && type[1] == 'x' ) )
       {
-        std::cout << "[w] ignore gate '" << type << "'\n";
+        env->out() << "[w] ignore gate '" << type << "'\n";
         return;
       }
 
@@ -232,7 +232,7 @@ protected:
     spec.verbosity = is_set( "verbose" ) ? 1 : 0;
     spec.functions[0] = &opt.function;
 
-    auto synth = percy::new_synth<kitty::dynamic_truth_table, abc::sat_solver*>( type );
+    auto synth = percy::new_synth<abc::sat_solver*>( spec, type );
     percy::chain<kitty::dynamic_truth_table> c;
 
     if ( synth->synthesize( spec, c ) != percy::success )
