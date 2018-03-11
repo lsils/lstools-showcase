@@ -30,7 +30,7 @@ maintained by Heinz Riener
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
-**percy:** Exact synthesis library with topology information <br>
+**percy:** C++ exact synthesis library <br>
 [GitHub](https://github.com/whaaswijk/percy) <br>
 maintained by Winston Haaswijk
 
