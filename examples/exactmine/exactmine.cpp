@@ -83,6 +83,20 @@ ALICE_DESCRIBE_STORE( optimum_network, opt )
   }
 }
 
+ALICE_PRINT_STORE( optimum_network, os, opt )
+{
+  os << fmt::format( "function (hex): {}\nfunction (bin): {}\n", kitty::to_hex( opt.function ), kitty::to_binary( opt.function ) );
+
+  if ( opt.network.empty() )
+  {
+    os << "no optimum network computed\n";
+  }
+  else
+  {
+    os << fmt::format( "optimum network: {}\n", opt.network );
+  }
+}
+
 void add_optimum_network_entry( command& cmd, kitty::dynamic_truth_table& function )
 {
   if ( cmd.env->variable( "npn" ) != "" )
@@ -109,7 +123,7 @@ public:
   }
 
 protected:
-  void execute()
+  void execute() override
   {
     auto function = [this]() {
       if ( is_set( "binary" ) )
@@ -177,7 +191,7 @@ public:
   };
 
 protected:
-  void execute()
+  void execute() override
   {
     lorina::read_bench( filename, lut_parser( *this ) );
   }
@@ -194,46 +208,55 @@ class find_network_command : public command
 public:
   find_network_command( const environment::ptr& env ) : command( env, "Finds optimum network" )
   {
+    add_option( "--synth_type,-t", type, "synthesis type (0: simple, 1: nontriv, 2: alonce, 3: noreapply, 4: colex, 5: colex_func, 6: symmetric, 7: fence)", true );
+    add_flag( "--verify", "verifies whether found network matches specification" );
+    add_flag( "--force,-f", "recompute optimum network if it exists" );
+    add_flag( "--verbose,-v", "be verbose" );
   }
 
 protected:
-  void execute()
+  rules validity_rules() const override
   {
-    const auto& function = store<optimum_network>().current().function;
-
-    if ( function.num_vars() == 2u )
-    {
-      synthesize<2>( function );
-    }
-    else if ( function.num_vars() == 3u )
-    {
-      synthesize<3>( function );
-    }
-    else if ( function.num_vars() == 4u )
-    {
-      synthesize<4>( function );
-    }
+    return {
+        has_store_element<optimum_network>( env ),
+        {[this]() { return store<optimum_network>().current().network.empty() || is_set( "force" ); }, "optimum network already computed (use -f to override)"}};
   }
 
-  template<int NumVars>
-  void synthesize( const kitty::dynamic_truth_table& function )
+  void execute() override
   {
-    percy::synth_spec<kitty::static_truth_table<NumVars>> spec;
-    spec.nr_in = NumVars;
+    auto& opt = store<optimum_network>().current();
+
+    percy::synth_spec<kitty::dynamic_truth_table> spec;
+    spec.nr_in = opt.function.num_vars();
     spec.nr_out = 1;
-    spec.verbosity = 0;
+    spec.verbosity = is_set( "verbose" ) ? 1 : 0;
+    spec.functions[0] = &opt.function;
 
-    kitty::static_truth_table<NumVars> func;
-    std::copy( function.begin(), function.end(), func.begin() );
-    spec.functions[0] = &func;
-
-    auto synth = percy::new_synth<percy::symmetric_synthesizer<kitty::static_truth_table<NumVars>, abc::sat_solver*, 2>>();
-    percy::chain<kitty::static_truth_table<NumVars>> c;
+    auto synth = percy::new_synth<kitty::dynamic_truth_table, abc::sat_solver*>( type );
+    percy::chain<kitty::dynamic_truth_table> c;
 
     auto result = synth->synthesize( spec, c );
 
-    std::cout << ( result == percy::success ) << std::endl;
+    if ( is_set( "verify" ) )
+    {
+      if ( *( c.simulate() )[0] == opt.function )
+      {
+        env->out() << "[i] synthesized chain matches specification\n";
+      }
+      else
+      {
+        env->out() << "[e] synthesized chain does not match specification\n";
+        return;
+      }
+    }
+
+    std::stringstream str;
+    c.to_expression( str );
+    opt.network = str.str();
   }
+
+private:
+  percy::synth_type type{percy::SIMPLE};
 };
 
 ALICE_ADD_COMMAND( find_network, "Exact synthesis" )
