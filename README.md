@@ -36,4 +36,8 @@ maintained by Winston Haaswijk
 
 ## Examples
 
-**[abc](examples/abc):** A very small [ABC](https://bitbucket.org/alanmi/abc) clone that uses alice for creating the CLI shell
+**[abc](examples/abc):** A tiny [ABC](https://bitbucket.org/alanmi/abc) clone that uses alice for creating the CLI shell
+
+**[countluts](examples/countluts):** Count and classify LUT functions in a BENCH file
+
+**[exactmine](examples/exactmine):** Mine optimum Boolean networks from truth tables
