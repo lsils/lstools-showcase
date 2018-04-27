@@ -25,7 +25,7 @@ maintained by Mathias Soeken
 <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **lorina:** C++ parsing library <br>
-[GitHub](https://github.com/hriener/lorina) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/hriener/lorina) | [Version 0.1 (Apr 27, 2018)](https://github.com/hriener/lorina/releases) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
 maintained by Heinz Riener
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
