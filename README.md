@@ -13,7 +13,7 @@ used.
 
 **alice:** C++ command shell library
  <br>
-[GitHub](https://github.com/msoeken/alice) | [Version 0.1 (Jan 11, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/msoeken/alice) | [Version 0.2 (May 7, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
@@ -31,7 +31,7 @@ maintained by Heinz Riener
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** C++ exact synthesis library <br>
-[GitHub](https://github.com/whaaswijk/percy) | [Version 0.1.1 (May 07, 2018)](https://github.com/whaaswijk/percy/releases/) <br>
+[GitHub](https://github.com/whaaswijk/percy) | [Version 0.1.1 (May 7, 2018)](https://github.com/whaaswijk/percy/releases/) <br>
 maintained by Winston Haaswijk
 
 ## Examples
