@@ -31,7 +31,7 @@ maintained by Heinz Riener
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** C++ exact synthesis library <br>
-[GitHub](https://github.com/whaaswijk/percy) <br>
+[GitHub](https://github.com/whaaswijk/percy) | [Version 0.1 (May 07, 2018)](https://github.com/whaaswijk/percy/releases/) <br>
 maintained by Winston Haaswijk
 
 ## Examples
