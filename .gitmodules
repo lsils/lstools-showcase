@@ -9,4 +9,4 @@
 	url = https://github.com/hriener/lorina.git
 [submodule "lib/percy"]
 	path = lib/percy
-	url = https://github.com/msoeken/percy
+	url = https://github.com/whaaswijk/percy
