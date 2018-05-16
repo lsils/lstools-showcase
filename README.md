@@ -41,3 +41,12 @@ maintained by Winston Haaswijk
 **[countluts](examples/countluts):** Count and classify LUT functions in a BENCH file
 
 **[exactmine](examples/exactmine):** Mine optimum Boolean networks from truth tables
+
+## Reference
+
+The EPFL logic synthesis libraries are explained in the paper [*The EPFL Logic Synthesis Libraries*](https://arxiv.org/abs/1805.05121), to be presented at the [*International Workshop on Logic Synthesis 2018*](http://www.iwls.org/iwls2018/).
+
+If you use the EPFL logic synthesis libraries in your research work and experimental evaluation, we'd be happy if you cite:
+
+* Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**.
+
