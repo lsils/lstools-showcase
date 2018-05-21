@@ -19,7 +19,7 @@ maintained by Mathias Soeken
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **kitty:** C++ truth table library <br>
-[GitHub](https://github.com/msoeken/kitty) | [Version 0.3 (Feb 25, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/msoeken/kitty) | [Version 0.4 (May 4, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
