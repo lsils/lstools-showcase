@@ -13,7 +13,7 @@ used.
 
 **alice:** C++ command shell library
  <br>
-[GitHub](https://github.com/msoeken/alice) | [Version 0.1 (Jan 11, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/msoeken/alice) | [Version 0.2 (May 7, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
@@ -31,7 +31,7 @@ maintained by Heinz Riener
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** C++ exact synthesis library <br>
-[GitHub](https://github.com/whaaswijk/percy) <br>
+[GitHub](https://github.com/whaaswijk/percy) | [Version 0.1.2 (May 12, 2018)](https://github.com/whaaswijk/percy/releases/) | [Documentation](http://percy.readthedocs.io/en/latest/) <br>
 maintained by Winston Haaswijk
 
 ## Examples
@@ -41,3 +41,12 @@ maintained by Winston Haaswijk
 **[countluts](examples/countluts):** Count and classify LUT functions in a BENCH file
 
 **[exactmine](examples/exactmine):** Mine optimum Boolean networks from truth tables
+
+## Reference
+
+The EPFL logic synthesis libraries are explained in the paper [*The EPFL Logic Synthesis Libraries*](https://arxiv.org/abs/1805.05121), to be presented at the [*International Workshop on Logic Synthesis 2018*](http://www.iwls.org/iwls2018/).
+
+If you use the EPFL logic synthesis libraries in your research work and experimental evaluation, we'd be happy if you cite:
+
+* Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**.
+

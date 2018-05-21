@@ -210,7 +210,6 @@ class find_network_command : public command
 public:
   find_network_command( const environment::ptr& env ) : command( env, "Find optimum network" )
   {
-    add_option( "--synth_type,-t", type, "synthesis type (0: simple, 1: nontriv, 2: alonce, 3: noreapply, 4: colex, 5: colex_func, 6: symmetric, 7: fence)", true );
     add_flag( "--verify", "verifies whether found network matches specification" );
     add_flag( "--force,-f", "recompute optimum network if it exists" );
     add_flag( "--verbose,-v", "be verbose" );
@@ -229,23 +228,23 @@ protected:
     auto& opt = store<optimum_network>().current();
 
     percy::synth_spec<kitty::dynamic_truth_table> spec;
-    spec.nr_in = opt.function.num_vars();
-    spec.nr_out = 1;
+    spec.set_nr_in(opt.function.num_vars());
+    spec.set_nr_out(1);
     spec.verbosity = is_set( "verbose" ) ? 1 : 0;
     spec.functions[0] = &opt.function;
 
-    auto synth = percy::new_synth( spec, type );
-    percy::chain<kitty::dynamic_truth_table> c;
+    auto synth = percy::new_std_synth();
+    percy::chain<2> c;
 
     if ( synth->synthesize( spec, c ) != percy::success )
     {
-      env->out() << "[e] could not find optimum network (try with other synthesis types)\n";
+      env->out() << "[e] could not find optimum network \n";
       return;
     }
 
     if ( is_set( "verify" ) )
     {
-      if ( *( c.simulate() )[0] == opt.function )
+      if ( c.simulate(spec)[0] == opt.function )
       {
         env->out() << "[i] synthesized chain matches specification\n";
       }
@@ -260,9 +259,6 @@ protected:
     c.to_expression( str );
     opt.network = str.str();
   }
-
-private:
-  percy::synth_type type{percy::SIMPLE};
 };
 
 ALICE_ADD_COMMAND( find_network, "Exact synthesis" )
