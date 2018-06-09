@@ -130,14 +130,14 @@ protected:
     auto function = [this]() {
       if ( is_set( "binary" ) )
       {
-        const unsigned num_vars = ::log( truth_table.size() ) / ::log( 2.0 );
+        const unsigned num_vars = std::log2( truth_table.size() );
         kitty::dynamic_truth_table function( num_vars );
         kitty::create_from_binary_string( function, truth_table );
         return function;
       }
       else
       {
-        const unsigned num_vars = ::log( truth_table.size() * 4 ) / ::log( 2.0 );
+        const unsigned num_vars = std::log2( truth_table.size() * 4 );
         kitty::dynamic_truth_table function( num_vars );
         kitty::create_from_hex_string( function, truth_table );
         return function;
