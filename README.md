@@ -28,6 +28,12 @@ maintained by Mathias Soeken
 [GitHub](https://github.com/hriener/lorina) | [Version 0.1 (Apr 27, 2018)](https://github.com/hriener/lorina/releases) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
 maintained by Heinz Riener
 
+<img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**mockturtle:** C++ logic network library <br>
+[GitHub](https://github.com/lsils/mockturtle) | [Documentation](http://mockturtle.readthedocs.io/en/latest/) <br>
+maintained by Mathias Soeken
+
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** C++ exact synthesis library <br>
