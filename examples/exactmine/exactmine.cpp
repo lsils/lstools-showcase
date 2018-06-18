@@ -227,16 +227,13 @@ protected:
   {
     auto& opt = store<optimum_network>().current();
 
-    percy::synth_spec<kitty::dynamic_truth_table> spec;
-    spec.set_nr_in(opt.function.num_vars());
-    spec.set_nr_out(1);
+    percy::spec spec;
     spec.verbosity = is_set( "verbose" ) ? 1 : 0;
-    spec.functions[0] = &opt.function;
+    spec[0] = opt.function;
 
-    auto synth = percy::new_std_synth();
-    percy::chain<2> c;
+    percy::chain c;
 
-    if ( synth->synthesize( spec, c ) != percy::success )
+    if ( percy::synthesize( spec, c ) != percy::success )
     {
       env->out() << "[e] could not find optimum network \n";
       return;
