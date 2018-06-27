@@ -16,6 +16,13 @@ used.
 [GitHub](https://github.com/msoeken/alice) | [Version 0.2 (May 7, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
+<img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**easy:** C++ exclusive-sum-of-product (ESOP) library
+ <br>
+[GitHub](https://github.com/hriener/easy) | [Documentation](http://easy.readthedocs.io/en/latest/) <br>
+maintained by Heinz Riener
+
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **kitty:** C++ truth table library <br>
