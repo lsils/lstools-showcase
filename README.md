@@ -18,7 +18,7 @@ maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
-**easy:** C++ exclusive-sum-of-product (ESOP) library
+**easy:** C++ exclusive-or sum-of-product (ESOP) library
  <br>
 [GitHub](https://github.com/hriener/easy) | [Documentation](http://easy.readthedocs.io/en/latest/) <br>
 maintained by Heinz Riener
