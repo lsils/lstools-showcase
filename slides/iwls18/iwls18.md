@@ -11,7 +11,7 @@ slideNumber: true
 Mathias Soeken, Heinz Riener,
 
 Winston Haaswijk, Giovanni De Micheli
-
+****
 *EPFL, Lausanne, Switzerland*
 
 https://github.com/lsils/lstools-showcase
@@ -39,18 +39,18 @@ https://github.com/lsils/lstools-showcase
   <col width="50%"/>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/msoeken/alice/master/alice.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/msoeken/alice/master/alice.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **alice**<br/>
+      [**alice**](#/alice)<br/>
       <small>
         C++ command shell library<br/><br />
         <i class="fa fa-github"></i> [msoeken/alice](https://github.com/msoeken/alice)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **lorina**<br/>
+      [**lorina**](#/lorina)<br/>
       <small>
         C++ parsing library<br/><br />
         <i class="fa fa-github"></i> [hriener/lorina](https://github.com/hriener/lorina)
@@ -59,18 +59,18 @@ https://github.com/lsils/lstools-showcase
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **kitty**<br>
+      [**kitty**](#/kitty)<br>
       <small>
         C++ truth table library<br/><br />
         <i class="fa fa-github"></i> [msoeken/kitty](https://github.com/msoeken/kitty)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **percy**<br>
+      [**percy**](#/percy)<br>
       <small>
         C++ exact synthesis library<br/><br />
         <i class="fa fa-github"></i> [whaaswijk/percy](https://github.com/whaaswijk/percy)
@@ -79,16 +79,16 @@ https://github.com/lsils/lstools-showcase
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **mockturtle**<br>
+      [**mockturtle**](#/mockturtle)<br>
       <small>
         C++ logic network library<br/><br />
         <i class="fa fa-github"></i> [lsils/mockturtle](https://github.com/lsils/mockturtle)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
       **easy**<br>
       <small>
@@ -96,6 +96,18 @@ https://github.com/lsils/lstools-showcase
         <i class="fa fa-github"></i> [hriener/easy](https://github.com/hriener/easy)
       </small>
     </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+
+      **tweedledum**<br>
+      <small>
+        C++ quantum computing library<br/><br/>
+        <i class="fa fa-github"></i> [boschmitt/tweedledum](https://github.com/boschmitt/tweedledum)
+      </small>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td>...</td>
@@ -106,7 +118,7 @@ https://github.com/lsils/lstools-showcase
 
 ### Implementation
 
-* Modern C++ (C++ 17 for *mockturtle*, C++ 14 for all others)
+* Modern C++ (mainly C++14, some C++17)
 * Header-only
 * (Almost) no dependencies
  * dependencies are header-only and shipped with library
@@ -138,6 +150,7 @@ https://github.com/lsils/lstools-showcase
 
 ---
 
+<!-- .slide: id="alice" -->
 ### Command shell with alice
 
 <img src="https://cdn.rawgit.com/msoeken/alice/master/alice.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 0" border="0" />
@@ -271,6 +284,7 @@ ALICE_ADD_COMMAND( load, "Loading" );
 
 --
 
+<!-- .slide: id="kitty" -->
 ### *kitty*: C++ truth table library
 
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 0" border="0" />
@@ -413,6 +427,7 @@ private:
 
 --
 
+<!-- .slide: id="lorina" -->
 ### *lorina*: C++ parsing library
 
 <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 0" border="0" />
@@ -493,6 +508,7 @@ public:
 
 --
 
+<!-- .slide: id="percy" -->
 ### *percy*: C++ exact synthesis library
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 0" border="0" />
@@ -545,13 +561,116 @@ synthesize( spec, c, SLV_CMSAT, ENC_KNUTH );
 
 ---
 
-### *mockturtle*: C++ logic network library
+<!-- .slide: id="mockturtle" -->
+### *mockturtle*: logic network library
 
-<img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 10" border="0" />
+<img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="64" height="64" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none; position: absolute; left: 0; top: 0" border="0" />
 
-![](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNjAiPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwxMjApIj4KICAgICAgPHBhdGggZD0iTSAwLDAgSCA5MCBMIDEwMCwtMTAgTCAxMTAsMCBIIDIwMCBWIDQwIEggMCBaIiBzdHlsZT0iZmlsbDogcmdiKDAsMTQzLDI0NSk7IHN0cm9rZTogcmdiYSgwLDE0MywyNDUsLjUpIiAvPgogICAgICA8c3ZnIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiPgogICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmIj4KICAgICAgICAgIE5ldHdvcmsgaW50ZXJmYWNlIEFQSQogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA8L2c+CgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCw4MCkiPgogICAgICA8cGF0aCBkPSJNIDAsMCBIIDkwIEwgMTAwLC0xMCBMIDExMCwwIEggMjAwIFYgNDAgSCAxMTAgTCAxMDAsMzAgTCA5MCw0MCBIIDAgWiIgc3R5bGU9ImZpbGw6IHJnYigxMTEsMTgzLDMzKTsgc3Ryb2tlOiByZ2JhKDExMSwxODMsMzMsLjUpIiAvPgogICAgICA8c3ZnIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiPgogICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmIj4KICAgICAgICAgIEFsZ29yaXRobXMKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAgPC9nPgoKICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNDApIj4KICAgICAgPHBhdGggZD0iTSAwLDAgSCA5MCBMIDEwMCwtMTAgTCAxMTAsMCBIIDIwMCBWIDQwIEggMTEwIEwgMTAwLDMwIEwgOTAsNDAgSCAwIFoiIHN0eWxlPSJmaWxsOiByZ2IoMjMyLDE0MCwyMCk7IHN0cm9rZTogcmdiYSgyMzIsMTQwLDIwLC41KSIgLz4KICAgICAgPHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwIj4KICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZiI+CiAgICAgICAgICBOZXR3b3JrIGltcGxlbWVudGF0aW9ucwogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA8L2c+CgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwwKSI+CiAgICAgIDxwYXRoIGQ9Ik0gMCwwIEggMjAwIFYgNDAgSCAxMTAgTCAxMDAsMzAgTCA5MCw0MCBIIDAgWiIgc3R5bGU9ImZpbGw6IHJnYigyMjYsMzQsNzIpOyBzdHJva2U6IHJnYmEoMjI2LDM0LDcyLC41KSIgLz4KICAgICAgPHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwIj4KICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZiI+CiAgICAgICAgICBQZXJmb3JtYW5jZSB0d2Vha3MKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAgPC9nPgo8L3N2Zz4K)
+<pre class="stretch"><code class="cpp" data-trim>
+/* choose a network type */
+aig_network aig;
+
+/* read network from file with lorina */
+lorina::read_aiger("file.aig", aiger_reader(aig));
+
+/* cut rewriting based on exact synthesis (with percy) */
+cut_rewriting(aig, exact_aig_resynthesis());
+aig = cleanup_dangling(aig);
+
+/* map into LUT network */
+mapping_view mapped_aig{aig};
+lut_mapping(mapped_aig);
+
+/* traverse the network */
+aig.foreach_node([&](auto n) {
+  if (mapped_aig.is_cell_root(n)) {
+    mapped_aig.foreach_cell_fanin(n, [&](auto c) {
+      std::cout << n << " -> " << c << "\n";
+    });
+  }
+});
+</code></pre>
 
 --
+
+### *mockturtle*: Generic algorithms
+
+<pre class="stretch"><code class="cpp" data-trim data-noescape>
+/* choose a network type */
+<mark>mig_network</mark> mig;
+
+/* read network from file with lorina */
+lorina::read_aiger("file.aig", aiger_reader(mig));
+
+/* cut rewriting based on exact synthesis (with percy) */
+cut_rewriting(mig, <mark>mig_npn_resynthesis()</mark>);
+mig = cleanup_dangling(mig);
+
+/* map into LUT network */
+mapping_view mapped_mig{mig};
+lut_mapping(mapped_mig);
+
+/* traverse the network */
+mig.foreach_node([&](auto n) {
+  if (mapped_mig.is_cell_root(n)) {
+    mapped_mig.foreach_cell_fanin(n, [&](auto c) {
+      std::cout << n << " -> " << c << "\n";
+    });
+  }
+});
+</code></pre>
+
+--
+
+### *mockturtle*: Philosophy
+
+<table>
+  <tr>
+    <td width="30%" style="vertical-align: top">
+![](data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNjAiPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwxMjApIj4KICAgICAgPHBhdGggZD0iTSAwLDAgSCA5MCBMIDEwMCwtMTAgTCAxMTAsMCBIIDIwMCBWIDQwIEggMCBaIiBzdHlsZT0iZmlsbDogcmdiKDAsMTQzLDI0NSk7IHN0cm9rZTogcmdiYSgwLDE0MywyNDUsLjUpIiAvPgogICAgICA8c3ZnIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiPgogICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmIj4KICAgICAgICAgIE5ldHdvcmsgaW50ZXJmYWNlIEFQSQogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA8L2c+CgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCw4MCkiPgogICAgICA8cGF0aCBkPSJNIDAsMCBIIDkwIEwgMTAwLC0xMCBMIDExMCwwIEggMjAwIFYgNDAgSCAxMTAgTCAxMDAsMzAgTCA5MCw0MCBIIDAgWiIgc3R5bGU9ImZpbGw6IHJnYigxMTEsMTgzLDMzKTsgc3Ryb2tlOiByZ2JhKDExMSwxODMsMzMsLjUpIiAvPgogICAgICA8c3ZnIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiPgogICAgICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmIj4KICAgICAgICAgIEFsZ29yaXRobXMKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAgPC9nPgoKICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNDApIj4KICAgICAgPHBhdGggZD0iTSAwLDAgSCA5MCBMIDEwMCwtMTAgTCAxMTAsMCBIIDIwMCBWIDQwIEggMTEwIEwgMTAwLDMwIEwgOTAsNDAgSCAwIFoiIHN0eWxlPSJmaWxsOiByZ2IoMjMyLDE0MCwyMCk7IHN0cm9rZTogcmdiYSgyMzIsMTQwLDIwLC41KSIgLz4KICAgICAgPHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwIj4KICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZiI+CiAgICAgICAgICBOZXR3b3JrIGltcGxlbWVudGF0aW9ucwogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA8L2c+CgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwwKSI+CiAgICAgIDxwYXRoIGQ9Ik0gMCwwIEggMjAwIFYgNDAgSCAxMTAgTCAxMDAsMzAgTCA5MCw0MCBIIDAgWiIgc3R5bGU9ImZpbGw6IHJnYigyMjYsMzQsNzIpOyBzdHJva2U6IHJnYmEoMjI2LDM0LDcyLC41KSIgLz4KICAgICAgPHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwIj4KICAgICAgICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZiI+CiAgICAgICAgICBQZXJmb3JtYW5jZSB0d2Vha3MKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAgPC9nPgo8L3N2Zz4K)
+    </td>
+    <td>
+      <ul>
+        <li>Network interface API is a collection of agreed names (no abstract base class)</li>
+        <li>Algorithms are implemented using a subset of the naming conventions</li>
+        <li>Network types can implement an arbitrary subset of the interface</li>
+        <li>Algorithms may use static compile-time checks for dedicated performance tweaks</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+--
+
+### *mockturtle*: Views
+
+* Views can *add*, *remove*, or *change* functionality
+* Views behave like networks
+* Examples
+  * `topo_view` guarantees topological order in `foreach_node`
+  * `depth_view` generically implements `level` and `depth`
+  * `mapping_view` adds mapping interface
+  * `immutable_view` removes all methods that permit structural changes
+
+--
+
+### *mockturtle*: Highlights
+
+* Current data structures: AIGs, MIGs, XMGs, *k*-LUT networks
+* Combinational and sequential interface methods
+* Algorithms:
+  * Cut enumeration
+  * LUT mapping
+  * Node resynthesis
+  * Cut rewriting
+  * Refactoring
+  * Resubstitution
+  * Majority-based algebraic depth rewriting
+  * ...
+
+--
+
+### mockturtle.readthedocs.io
 
 <iframe src="http://mockturtle.readthedocs.io/en/latest/network.html" width="100%" class="stretch">
 </iframe>
@@ -577,18 +696,18 @@ synthesize( spec, c, SLV_CMSAT, ENC_KNUTH );
   <col width="50%"/>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/msoeken/alice/master/alice.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/msoeken/alice/master/alice.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **alice**<br/>
+      [**alice**](#/alice)<br/>
       <small>
         C++ command shell library<br/><br />
         <i class="fa fa-github"></i> [msoeken/alice](https://github.com/msoeken/alice)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **lorina**<br/>
+      [**lorina**](#/lorina)<br/>
       <small>
         C++ parsing library<br/><br />
         <i class="fa fa-github"></i> [hriener/lorina](https://github.com/hriener/lorina)
@@ -597,18 +716,18 @@ synthesize( spec, c, SLV_CMSAT, ENC_KNUTH );
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **kitty**<br>
+      [**kitty**](#/kitty)<br>
       <small>
         C++ truth table library<br/><br />
         <i class="fa fa-github"></i> [msoeken/kitty](https://github.com/msoeken/kitty)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **percy**<br>
+      [**percy**](#/percy)<br>
       <small>
         C++ exact synthesis library<br/><br />
         <i class="fa fa-github"></i> [whaaswijk/percy](https://github.com/whaaswijk/percy)
@@ -617,16 +736,16 @@ synthesize( spec, c, SLV_CMSAT, ENC_KNUTH );
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
-      **mockturtle**<br>
+      [**mockturtle**](#/mockturtle)<br>
       <small>
         C++ logic network library<br/><br />
         <i class="fa fa-github"></i> [lsils/mockturtle](https://github.com/lsils/mockturtle)
       </small>
     </td>
     <td>
-      <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="128" height="128" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+      <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
 
       **easy**<br>
       <small>
@@ -634,5 +753,20 @@ synthesize( spec, c, SLV_CMSAT, ENC_KNUTH );
         <i class="fa fa-github"></i> [hriener/easy](https://github.com/hriener/easy)
       </small>
     </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="100" height="100" align="left" style="margin-right: 12pt; border: none; background: none; box-shadow: none" border="0" />
+
+      **tweedledum**<br>
+      <small>
+        C++ quantum computing library<br/><br/>
+        <i class="fa fa-github"></i> [boschmitt/tweedledum](https://github.com/boschmitt/tweedledum)
+      </small>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>...</td>
   </tr>
 </table>
