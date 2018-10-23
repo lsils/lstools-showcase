@@ -26,13 +26,13 @@ maintained by Heinz Riener
 <img src="https://cdn.rawgit.com/msoeken/kitty/master/kitty.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **kitty:** C++ truth table library <br>
-[GitHub](https://github.com/msoeken/kitty) | [Version 0.4 (May 4, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/msoeken/kitty) | [Version 0.5 (October 8, 2018)](https://github.com/msoeken/kitty/releases) | [Documentation](http://libkitty.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
 <img src="https://cdn.rawgit.com/hriener/lorina/master/lorina.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **lorina:** C++ parsing library <br>
-[GitHub](https://github.com/hriener/lorina) | [Version 0.1 (Apr 27, 2018)](https://github.com/hriener/lorina/releases) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/hriener/lorina) | [Version 0.2 (October 18, 2018)](https://github.com/hriener/lorina/releases) | [Documentation](http://lorina.readthedocs.io/en/latest/) <br>
 maintained by Heinz Riener
 
 <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
@@ -46,6 +46,12 @@ maintained by Mathias Soeken
 **percy:** C++ exact synthesis library <br>
 [GitHub](https://github.com/whaaswijk/percy) | [Version 0.1.2 (May 12, 2018)](https://github.com/whaaswijk/percy/releases/) | [Documentation](http://percy.readthedocs.io/en/latest/) <br>
 maintained by Winston Haaswijk
+
+<img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**tweedledum:** C++ quantum compilation library <br>
+[GitHub](https://github.com/boschmitt/tweedledum) <br>
+maintained by Bruno Schmitt
 
 ## Examples
 
