@@ -50,7 +50,7 @@ maintained by Winston Haaswijk
 <img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **tweedledum:** C++ quantum compilation library <br>
-[GitHub](https://github.com/boschmitt/tweedledum) <br>
+[GitHub](https://github.com/boschmitt/tweedledum) | [Documentation](https://tweedledum.readthedocs.io/en/latest/) <br>
 maintained by Bruno Schmitt
 
 ## Examples
