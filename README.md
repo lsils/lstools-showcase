@@ -61,6 +61,12 @@ maintained by Bruno Schmitt
 
 **[exactmine](examples/exactmine):** Mine optimum Boolean networks from truth tables
 
+## External projects using the EPFL Logic Synthesis Libraries
+
+[LSOracle](https://github.com/LNIS-Projects/LSOracle) (*The University of Utah*)
+
+If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
+
 ## Events
 
 * **Februrary 2019:** Presentation at [*FOSDEM CAD and Open Hardware devroom*](https://fosdem.org/2019/schedule/event/epfl_logic_synthesis/) in Brussels, Belgium.
