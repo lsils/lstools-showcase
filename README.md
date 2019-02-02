@@ -82,3 +82,14 @@ If you use the EPFL logic synthesis libraries in your research work and experime
 
 * Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**.
 
+```bibtex
+@misc{EPFLLibraries,
+  author = {Soeken, Mathias and Riener, Heinz, and Haaswijk, Winston and De Micheli, Giovanni},
+  title = {The {EPFL} logic synthesis libraries},
+  archivePrefix = "arXiv", 
+  note = {arXiv:1805.05121},
+  year = 2018,
+  month = may
+}
+```
+
