@@ -65,6 +65,8 @@ maintained by Bruno Schmitt
 
 [LSOracle](https://github.com/LNIS-Projects/LSOracle) (*The University of Utah*)
 
+[fiction](https://github.com/marcelwa/fiction) (Marcel Walter, *Universität Bremen*)
+
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
 ## Events
