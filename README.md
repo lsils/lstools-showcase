@@ -16,6 +16,12 @@ used.
 [GitHub](https://github.com/msoeken/alice) | [Version 0.3 (July 22, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
+<img src="https://user-images.githubusercontent.com/37411238/51745329-be3d7400-20a2-11e9-9ac5-d5e15602ec7b.png" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**caterpillar:** C++ quantum circuit synthesis library <br>
+[GitHub](https://github.com/gmeuli/caterpillar) <br>
+maintained by Giulia Meuli
+
 <img src="https://cdn.rawgit.com/hriener/easy/master/easy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **easy:** C++ exclusive-or sum-of-product (ESOP) library
