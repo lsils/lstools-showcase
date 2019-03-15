@@ -69,9 +69,11 @@ maintained by Bruno Schmitt
 
 ## External projects using the EPFL Logic Synthesis Libraries
 
-[LSOracle](https://github.com/LNIS-Projects/LSOracle) (*The University of Utah*)
+[LSOracle](https://github.com/LNIS-Projects/LSOracle) (*The University of Utah, USA*)
 
-[fiction](https://github.com/marcelwa/fiction) (Marcel Walter, *Universität Bremen*)
+[fiction](https://github.com/marcelwa/fiction) (Marcel Walter, *Universität Bremen, Germany*)
+
+[ropper](https://gitlab.com/formigoni-ufv/lesc/ropper) (Ruan Formigoni, *Federal University of Viçosa, Brazil*)
 
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
