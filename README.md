@@ -94,7 +94,7 @@ If you use the EPFL logic synthesis libraries in your research work and experime
 
 ```bibtex
 @misc{EPFLLibraries,
-  author = {Soeken, Mathias and Riener, Heinz, and Haaswijk, Winston and De Micheli, Giovanni},
+  author = {Soeken, Mathias and Riener, Heinz and Haaswijk, Winston and De Micheli, Giovanni},
   title = {The {EPFL} logic synthesis libraries},
   archivePrefix = "arXiv", 
   note = {arXiv:1805.05121},
