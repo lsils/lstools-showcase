@@ -79,6 +79,8 @@ If you are using the EPFL logic synthesis libraries in a project, we'd be happy 
 
 ## Events
 
+* **June 2019:** Presentation at [*Logic Synthesis Software School*](https://hriener.github.io/lsss19.html) in Lausanne, Switzerland.
+* **June 2019:** Presentation at [*Workshop on Open Source EDA Tools*](https://fossi-foundation.org/wosh/) in Zurich, Switzerland.
 * **Februrary 2019:** Presentation at [*FOSDEM CAD and Open Hardware devroom*](https://fosdem.org/2019/schedule/event/epfl_logic_synthesis/) in Brussels, Belgium.
 * **November 2018:** Presentation at the [*Workshop on Open-Source EDA Technology*](http://scale.engin.brown.edu/woset/) in San Diego, CA, USA.
 * **August 2018:** Presentation at the [*IEEE CASS Seasonal School on Logic Synthesis*](http://inf.ufrgs.br/cass/ls/) in Porto Alegre, Brazil.
