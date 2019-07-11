@@ -15,8 +15,9 @@ used.
 [GitHub](https://github.com/msoeken/alice) | [Version 0.3 (July 22, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
-**bill:** C++ reasoning library <br>
 <img src="https://cdn.jsdelivr.net/gh/lsils/bill@master/bill.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**bill:** C++ reasoning library <br>
 [GitHub](https://github.com/lsils/bill) |
 [Documentation](http://bill.readthedocs.io/en/latest/) <br>
 maintained by Bruno Schmitt
