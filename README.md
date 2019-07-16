@@ -81,6 +81,8 @@ maintained by Bruno Schmitt
 
 [ropper](https://gitlab.com/formigoni/ropper) (Ruan Formigoni, *Federal University of Viçosa, Brazil*)
 
+[NetlistDB](https://github.com/HardwareIR/netlistDB/) (Michal Orsak, *Brno University of Technology*)
+
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
 ## Events
