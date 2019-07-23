@@ -12,4 +12,4 @@
 	url = https://github.com/msoeken/abc.git
 [submodule "lib/percy"]
 	path = lib/percy
-	url = https://github.com/whaaswijk/percy
+	url = https://github.com/lsils/percy
