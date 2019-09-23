@@ -82,7 +82,9 @@ maintained by Bruno Schmitt
 
 [ropper](https://gitlab.com/formigoni/ropper) (Ruan Formigoni, *Federal University of Viçosa, Brazil*)
 
-[NetlistDB](https://github.com/HardwareIR/netlistDB/) (Michal Orsak, *Brno University of Technology*)
+[NetlistDB](https://github.com/HardwareIR/netlistDB/) (Michal Orsak, *Brno University of Technology, Czech Republic*)
+
+[PandA](https://github.com/ferrandi/PandA-bambu/) (Fabrizio Ferrandi, *Politecnico di Milano, Italy*)
 
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
