@@ -57,7 +57,10 @@ maintained by Mathias Soeken
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **percy:** C++ exact synthesis library <br>
-[GitHub](https://github.com/whaaswijk/percy) | [Version 0.1.2 (May 12, 2018)](https://github.com/whaaswijk/percy/releases/) | [Documentation](http://percy.readthedocs.io/en/latest/) <br>
+[GitHub Dev](https://github.com/lsils/percy) |
+[GitHub](https://github.com/whaaswijk/percy) |
+[Version 0.1.2 (May 12, 2018)](https://github.com/whaaswijk/percy/releases/) |
+[Documentation](http://percy.readthedocs.io/en/latest/) <br>
 maintained by Winston Haaswijk
 
 <img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
