@@ -1,7 +1,9 @@
 #include <tweedledum/tweedledum.hpp>
+#include <string>
+#include <vector>
 
 /*
-    This file implement grover search example for 4 qubits to find '1101'
+    This file implements a Grover search example for 4 qubits to find '1101'
 */
 
 int main(int argc, char** argv)
