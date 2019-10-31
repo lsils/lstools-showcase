@@ -1,20 +1,13 @@
 #include <tweedledum/tweedledum.hpp>
-#include <iostream>
-#include <cstdint>
-#include <string>
-#include <unordered_map>
-#include <utility>
 
-#include <fmt/format.h>
 /*
     This file implement grover search example for 4 qubits to find '1101'
 */
 
-int main(int argc , char** argv)
+int main(int argc, char** argv)
 {
-
     (void) argc;
-	(void) argv;
+    (void) argv;
 	using namespace tweedledum;
 	netlist<mcmt_gate> network;
 	network.add_qubit("q0");
@@ -33,12 +26,12 @@ int main(int argc , char** argv)
     network.add_gate(gate::hadamard, "q3");
 
     /* -----oracle step----- */
-    std::vector<std::string> controls = {"q2", "q1" , "q0"};
+    std::vector<std::string> controls = {"q2", "q1", "q0"};
     std::vector<std::string> targets = {"q3"};
 
-    network.add_gate(gate::pauli_x,"q1");
+    network.add_gate(gate::pauli_x, "q1");
     network.add_gate(gate::mcz, controls, targets);
-    network.add_gate(gate::pauli_x,"q1");
+    network.add_gate(gate::pauli_x, "q1");
 
     /* -----amplification step----- */
     network.add_gate(gate::hadamard, "q0");
@@ -64,12 +57,12 @@ int main(int argc , char** argv)
     network.add_gate(gate::hadamard, "q3");
 
     /* -----measurement step----- */
-    // network.add_gate(gate::measurement, "q0" , "c0");
-    // network.add_gate(gate::measurement, "q1" , "c1");
-    // network.add_gate(gate::measurement, "q2" , "c2");
-    // network.add_gate(gate::measurement, "q3" , "c3");
+    // network.add_gate(gate::measurement, "q0", "c0");
+    // network.add_gate(gate::measurement, "q1", "c1");
+    // network.add_gate(gate::measurement, "q2", "c2");
+    // network.add_gate(gate::measurement, "q3", "c3");
 
 	write_unicode(network);
 
-    return 1;
+    return 0;
 }
