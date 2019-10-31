@@ -13,3 +13,6 @@
 [submodule "lib/percy"]
 	path = lib/percy
 	url = https://github.com/whaaswijk/percy
+[submodule "lib/tweedledum"]
+	path = lib/tweedledum
+	url = https://github.com/boschmitt/tweedledum.git
