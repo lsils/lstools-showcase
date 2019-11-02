@@ -241,7 +241,7 @@ protected:
 
     if ( is_set( "verify" ) )
     {
-      if ( c.simulate(spec)[0] == opt.function )
+      if ( c.satisfies_spec( spec ) )
       {
         env->out() << "[i] synthesized chain matches specification\n";
       }

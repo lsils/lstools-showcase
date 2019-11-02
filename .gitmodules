@@ -16,3 +16,6 @@
 [submodule "lib/tweedledum"]
 	path = lib/tweedledum
 	url = https://github.com/boschmitt/tweedledum.git
+[submodule "lib/mockturtle"]
+	path = lib/mockturtle
+	url = https://github.com/lsils/mockturtle.git
