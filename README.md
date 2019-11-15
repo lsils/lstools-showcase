@@ -79,7 +79,7 @@ maintained by Bruno Schmitt
 
 ## External projects using the EPFL Logic Synthesis Libraries
 
-[LSOracle](https://github.com/LNIS-Projects/LSOracle) (*The University of Utah, USA*)
+[LSOracle](https://github.com/LNIS-Projects/LSOracle) (*University of Utah, UT, USA*)
 
 [fiction](https://github.com/marcelwa/fiction) (Marcel Walter, *Universität Bremen, Germany*)
 
@@ -88,6 +88,8 @@ maintained by Bruno Schmitt
 [NetlistDB](https://github.com/HardwareIR/netlistDB/) (Michal Orsak, *Brno University of Technology, Czech Republic*)
 
 [PandA](https://github.com/ferrandi/PandA-bambu/) (Fabrizio Ferrandi, *Politecnico di Milano, Italy*)
+
+[LiveHD](https://github.com/masc-ucsc/livehd/)  (Jose Renau, *University of California, Santa Cruz, CA, USA*)
 
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
