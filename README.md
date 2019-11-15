@@ -106,16 +106,25 @@ The EPFL logic synthesis libraries are explained in the paper [*The EPFL Logic S
 
 If you use the EPFL logic synthesis libraries in your research work and experimental evaluation, we'd be happy if you cite:
 
-* Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**.
+* Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**
+
+* A revised version (November, 2019) of this work is available at **arXiv:1805.05121v2**
 
 ```bibtex
 @misc{EPFLLibraries,
-  author = {Soeken, Mathias and Riener, Heinz and Haaswijk, Winston and De Micheli, Giovanni},
+  author = {Soeken, Mathias and
+            Riener, Heinz and
+            Haaswijk, Winston and
+            Testa, Eleonora and
+            Schmitt, Bruno and
+            Meuli, Giulia and
+            Mozafari, Fereshte and
+            De Micheli, Giovanni},
   title = {The {EPFL} logic synthesis libraries},
   archivePrefix = "arXiv", 
-  note = {arXiv:1805.05121},
-  year = 2018,
-  month = may
+  note = {arXiv:1805.05121v2},
+  year = 2019,
+  month = nov
 }
 ```
 
