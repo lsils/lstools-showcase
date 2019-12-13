@@ -89,7 +89,9 @@ maintained by Bruno Schmitt
 
 [PandA](https://github.com/ferrandi/PandA-bambu/) (Fabrizio Ferrandi, *Politecnico di Milano, Italy*)
 
-[LiveHD](https://github.com/masc-ucsc/livehd/)  (Jose Renau, *University of California, Santa Cruz, CA, USA*)
+[LiveHD](https://github.com/masc-ucsc/livehd/) (Jose Renau, *University of California, Santa Cruz, CA, USA*)
+
+[staq](https://github.com/softwareQinc/staq/) (*SoftwareQ Inc., ON, Canada*)
 
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
