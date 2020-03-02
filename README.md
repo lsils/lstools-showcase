@@ -93,6 +93,8 @@ maintained by Bruno Schmitt
 
 [staq](https://github.com/softwareQinc/staq/) (*SoftwareQ Inc., ON, Canada*)
 
+[ALSO](https://github.com/nbulsi/also/) (Zhufei Chu, *Ningbo University, China*)
+
 If you are using the EPFL logic synthesis libraries in a project, we'd be happy to hear about it and list your project in this list.
 
 ## Events
