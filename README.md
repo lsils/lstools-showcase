@@ -18,7 +18,7 @@ maintained by Mathias Soeken
 <img src="https://cdn.jsdelivr.net/gh/lsils/bill@master/bill.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **bill:** C++ reasoning library <br>
-[GitHub](https://github.com/lsils/bill) |
+[GitHub](https://github.com/lsils/bill) | [Version 0.1 (June 2, 2020)](https://github.com/lsils/bill/releases) |
 [Documentation](http://bill.readthedocs.io/en/latest/) <br>
 maintained by Bruno Schmitt
 
