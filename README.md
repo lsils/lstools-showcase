@@ -51,7 +51,7 @@ maintained by Heinz Riener
 <img src="https://cdn.rawgit.com/lsils/mockturtle/master/mockturtle.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **mockturtle:** C++ logic network library <br>
-[GitHub](https://github.com/lsils/mockturtle) | [Version 0.1 (March 31, 2019)](https://github.com/lsils/mockturtle/releases) | [Documentation](http://mockturtle.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/lsils/mockturtle) | [Version 0.3 (February 16, 2021)](https://github.com/lsils/mockturtle/releases) | [Documentation](http://mockturtle.readthedocs.io/en/latest/) <br>
 maintained by Heinz Riener and Mathias Soeken
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
