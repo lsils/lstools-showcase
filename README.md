@@ -15,6 +15,12 @@ used.
 [GitHub](https://github.com/msoeken/alice) | [Version 0.3 (July 22, 2018)](https://github.com/msoeken/alice/releases) | [Documentation](http://libalice.readthedocs.io/en/latest/) <br>
 maintained by Mathias Soeken
 
+<img src="https://raw.githubusercontent.com/fmozafari/angel/master/angel.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**angel:** C++ quantum state preparation library <br>
+[GitHub](https://github.com/fmozafari/angel) | [Documentation](https://libangel.readthedocs.io/en/latest/index.html) <br>
+maintained by Fereshteh Mozafari
+
 <img src="https://cdn.jsdelivr.net/gh/lsils/bill@master/bill.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **bill:** C++ reasoning library <br>
@@ -133,4 +139,3 @@ If you use the EPFL logic synthesis libraries in your research work and experime
   month = nov
 }
 ```
-
