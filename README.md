@@ -70,6 +70,7 @@ maintained by Winston Haaswijk
 maintained by Bruno Schmitt
 
 <img src="https://github.com/fmozafari/angel/blob/master/angel.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
 **angel:** C++ quantum state preparation library <br>
 [GitHub](https://github.com/fmozafari/angel) |
 [Documentation](https://libangel.readthedocs.io/en/latest) <br>
