@@ -69,6 +69,13 @@ maintained by Winston Haaswijk
 [GitHub](https://github.com/boschmitt/tweedledum) | [Version 1.0-alpha (Dec 18, 2018)](https://github.com/boschmitt/tweedledum/releases/tag/v1.0-alpha) | [Documentation](https://tweedledum.readthedocs.io/en/latest/) <br>
 maintained by Bruno Schmitt
 
+<img src="https://github.com/fmozafari/angel/blob/master/angel.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
+
+**angel:** C++ quantum state preparation library <br>
+[GitHub](https://github.com/fmozafari/angel) |
+[Documentation](https://libangel.readthedocs.io/en/latest) <br>
+maintained by Fereshte Mozafari
+
 ## Examples
 
 **[abc](examples/abc):** A tiny [ABC](https://bitbucket.org/alanmi/abc) clone that uses alice for creating the CLI shell
