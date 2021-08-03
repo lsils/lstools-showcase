@@ -52,7 +52,7 @@ maintained by Heinz Riener
 
 **mockturtle:** C++ logic network library <br>
 [GitHub](https://github.com/lsils/mockturtle) | [Version 0.2 (February 16, 2021)](https://github.com/lsils/mockturtle/releases) | [Documentation](http://mockturtle.readthedocs.io/en/latest/) <br>
-maintained by Heinz Riener and Mathias Soeken
+maintained by Siang-Yun (Sonia) Lee and Heinz Riener
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
@@ -106,6 +106,7 @@ If you are using the EPFL logic synthesis libraries in a project, we'd be happy 
 
 ## Events
 
+* **July 2021:** Presentation at [*Logic Synthesis Software School*](https://hriener.github.io/lsss21.html) (virtual).
 * **June 2019:** Presentation at [*Logic Synthesis Software School*](https://hriener.github.io/lsss19.html) in Lausanne, Switzerland.
 * **June 2019:** Presentation at [*Workshop on Open Source EDA Tools*](https://fossi-foundation.org/wosh/) in Zurich, Switzerland.
 * **Februrary 2019:** Presentation at [*FOSDEM CAD and Open Hardware devroom*](https://fosdem.org/2019/schedule/event/epfl_logic_synthesis/) in Brussels, Belgium.
@@ -115,7 +116,7 @@ If you are using the EPFL logic synthesis libraries in a project, we'd be happy 
 
 ## Reference
 
-The EPFL logic synthesis libraries are explained in the paper [*The EPFL Logic Synthesis Libraries*](https://arxiv.org/abs/1805.05121), to be presented at the [*International Workshop on Logic Synthesis 2018*](http://www.iwls.org/iwls2018/).
+The EPFL logic synthesis libraries are explained in the paper [*The EPFL Logic Synthesis Libraries*](https://arxiv.org/abs/1805.05121), presented at the [*International Workshop on Logic Synthesis 2018*](http://www.iwls.org/iwls2018/).
 
 If you use the EPFL logic synthesis libraries in your research work and experimental evaluation, we'd be happy if you cite:
 
