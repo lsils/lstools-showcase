@@ -52,7 +52,7 @@ maintained by Heinz Riener
 
 **mockturtle:** C++ logic network library <br>
 [GitHub](https://github.com/lsils/mockturtle) | [Version 0.2 (February 16, 2021)](https://github.com/lsils/mockturtle/releases) | [Documentation](http://mockturtle.readthedocs.io/en/latest/) <br>
-maintained by Siang-Yun (Sonia) Lee and Heinz Riener
+maintained by Siang-Yun (Sonia) Lee
 
 <img src="https://cdn.rawgit.com/whaaswijk/percy/master/percy.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
@@ -122,7 +122,7 @@ If you use the EPFL logic synthesis libraries in your research work and experime
 
 * Mathias Soeken, Heinz Riener, Winston Haaswijk, and Giovanni De Micheli: “The EPFL Logic Synthesis Libraries”, *Int'l Workshop on Logic Synthesis*, 2018, pre-print available at **arXiv:1805.05121**
 
-* A revised version (November, 2019) of this work is available at **arXiv:1805.05121v2**
+* A second revised version (June, 2022) of this work is available at **arXiv:1805.05121v3**:
 
 ```bibtex
 @misc{EPFLLibraries,
@@ -133,12 +133,15 @@ If you use the EPFL logic synthesis libraries in your research work and experime
             Schmitt, Bruno and
             Meuli, Giulia and
             Mozafari, Fereshte and
+            Lee, Siang-Yun and
+            Tempia Calvino, Alessandro and
+            Marakkalage, Dewmini Sudara
             De Micheli, Giovanni},
   title = {The {EPFL} logic synthesis libraries},
   archivePrefix = "arXiv", 
-  note = {arXiv:1805.05121v2},
-  year = 2019,
-  month = nov
+  note = {arXiv:1805.05121v3},
+  year = 2022,
+  month = jun
 }
 ```
 
