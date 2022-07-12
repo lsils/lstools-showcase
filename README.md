@@ -66,7 +66,7 @@ maintained by Winston Haaswijk
 <img src="https://cdn.rawgit.com/boschmitt/tweedledum/master/tweedledum.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
 
 **tweedledum:** C++ quantum compilation library <br>
-[GitHub](https://github.com/boschmitt/tweedledum) | [Version 1.0-alpha (Dec 18, 2018)](https://github.com/boschmitt/tweedledum/releases/tag/v1.0-alpha) | [Documentation](https://tweedledum.readthedocs.io/en/latest/) <br>
+[GitHub](https://github.com/boschmitt/tweedledum) | [Version 1.1.1 (September 8, 2021)](https://github.com/boschmitt/tweedledum/releases) | [Documentation](https://tweedledum.readthedocs.io/en/latest/) <br>
 maintained by Bruno Schmitt
 
 <img src="https://github.com/fmozafari/angel/blob/master/angel.svg" width="64" height="64" align="left" style="margin-right: 12pt" />
